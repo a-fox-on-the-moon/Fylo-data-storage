@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Fylo data storage</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="background">
+        <picture>
+          <source media="(min-width: 845px)" srcset="./images/bg-desktop.png" />
+          <img src="./images/bg-mobile.png" alt="" />
+        </picture>
+      </div>
+      <div class="main-container">
+        <div class="main-left">
+          <img class="logo" src="./images/logo.svg" alt="Fylo logo" />
+          <div class="storage-icons">
+            <a href="" class="document"
+              ><img src="./images/icon-document.svg" alt="document icon"
+            /></a>
+            <a href="" class="folder"
+              ><img src="./images/icon-folder.svg" alt="folder icon"
+            /></a>
+            <a href="" class="upload"
+              ><img src="./images/icon-upload.svg" alt="upload icon"
+            /></a>
+          </div>
+        </div>
+
+        <div class="main-right">
+          <div class="storage-used">
+            <h1>
+              You've used
+              <span>815 GB</span> of your storage
+            </h1>
+          </div>
+          <div class="storage-bar" style="width: 100%">
+            <div class="storage-filled"></div>
+          </div>
+          <div class="total-storage">
+            <p>0 GB</p>
+            <p>1000 GB</p>
+          </div>
+          <div class="storage-left">
+            <h2>185 <span>GB left</span></h2>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
